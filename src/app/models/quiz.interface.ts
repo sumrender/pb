@@ -63,6 +63,15 @@ export type QuizQuestion =
   | StorySequenceQuestion;
 
 /**
+ * Scoring criteria thresholds
+ */
+export interface ScoringCriteria {
+  excellent: number;  // Minimum score for excellent rating
+  great: number;      // Minimum score for great rating
+  good: number;       // Minimum score for good rating
+}
+
+/**
  * Quiz container
  */
 export interface Quiz {
@@ -70,6 +79,7 @@ export interface Quiz {
   level: number;
   title: string;
   questions: QuizQuestion[]; // Exactly 15 questions
+  scoringCriteria?: ScoringCriteria; // Optional, will use defaults if not provided
 }
 
 /**

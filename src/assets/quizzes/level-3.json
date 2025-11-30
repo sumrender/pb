@@ -2,6 +2,11 @@
   "id": "quiz-level3-sentences-01",
   "level": 3,
   "title": "Fill in the Blank Quiz",
+  "scoringCriteria": {
+    "excellent": 13,
+    "great": 10,
+    "good": 7
+  },
   "questions": [
     {
       "id": "q1",

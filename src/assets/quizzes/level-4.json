@@ -2,6 +2,11 @@
   "id": "quiz-level4-paragraphs-01",
   "level": 4,
   "title": "Paragraph Fill-in Quiz",
+  "scoringCriteria": {
+    "excellent": 13,
+    "great": 10,
+    "good": 7
+  },
   "questions": [
     {
       "id": "q1",

@@ -32,10 +32,7 @@ export class QuizResultsComponent implements OnInit {
 
   readonly performanceLevel = computed(() => {
     const score = this.result()?.score || 0;
-    if (score >= 13) return 'excellent';
-    if (score >= 10) return 'great';
-    if (score >= 7) return 'good';
-    return 'keep-learning';
+    return this.quizService.getPerformanceLevel(score);
   });
 
   ngOnInit(): void {

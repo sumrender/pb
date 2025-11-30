@@ -235,4 +235,23 @@ export class QuizService {
       return "Keep learning! You'll improve! 💪";
     }
   }
+
+  /**
+   * Get performance level based on score and quiz-specific scoring criteria
+   */
+  getPerformanceLevel(score: number): string {
+    const quiz = this.currentQuiz();
+    
+    // Use quiz-specific criteria or fall back to defaults
+    const criteria = quiz?.scoringCriteria || {
+      excellent: AppConfig.quiz.scoring.excellent,
+      great: AppConfig.quiz.scoring.good,
+      good: AppConfig.quiz.scoring.passing
+    };
+
+    if (score >= criteria.excellent) return 'excellent';
+    if (score >= criteria.great) return 'great';
+    if (score >= criteria.good) return 'good';
+    return 'keep-learning';
+  }
 }
