@@ -1,4 +1,5 @@
 import { Injectable, signal, effect } from '@angular/core';
+import { AppConfig } from '../configuration/config';
 
 export type Theme = 'light' | 'dark';
 export type FontSize = 'small' | 'medium' | 'large' | 'xlarge';
@@ -96,15 +97,15 @@ export class ThemeService {
     const fontSize = this.currentFontSize();
     switch (fontSize) {
       case 'small':
-        return 0.875;
+        return AppConfig.fontSizeMultipliers.small;
       case 'medium':
-        return 1;
+        return AppConfig.fontSizeMultipliers.medium;
       case 'large':
-        return 1.25;
+        return AppConfig.fontSizeMultipliers.large;
       case 'xlarge':
-        return 1.5;
+        return AppConfig.fontSizeMultipliers.xlarge;
       default:
-        return 1;
+        return AppConfig.fontSizeMultipliers.medium;
     }
   }
 }

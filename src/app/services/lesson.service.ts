@@ -2,6 +2,7 @@ import { Injectable, signal, computed, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, map, forkJoin, of } from 'rxjs';
 import { LessonItem } from '../models/lesson-item.interface';
+import { AppConfig } from '../configuration/config';
 
 @Injectable({
   providedIn: 'root'
@@ -20,13 +21,10 @@ export class LessonService {
    * Load all lessons from JSON files
    */
   private loadAllLessons(): void {
-    const levelFiles = [
-      'assets/lessons/level-1.json',
-      'assets/lessons/level-2.json',
-      'assets/lessons/level-3.json',
-      'assets/lessons/level-4.json',
-      'assets/lessons/level-5.json'
-    ];
+    const levelFiles = Array.from(
+      { length: AppConfig.lessons.totalLevels },
+      (_, i) => AppConfig.lessons.assetPathTemplate.replace('{level}', String(i + AppConfig.lessons.firstLevelIndex))
+    );
 
     const requests = levelFiles.map(file => 
       this.http.get<LessonItem[]>(file).pipe(
@@ -39,7 +37,7 @@ export class LessonService {
         const allLessons: LessonItem[] = [];
         
         results.forEach((lessons, index) => {
-          const level = index + 1;
+          const level = index + AppConfig.lessons.firstLevelIndex;
           this.lessonsCache.set(level, lessons);
           allLessons.push(...lessons);
         });
@@ -57,7 +55,7 @@ export class LessonService {
    * Get all lessons for a specific level
    */
   getLessonsByLevel(level: number): Observable<LessonItem[]> {
-    if (this.lessonsCache.has(level) && this.lessonsCache.get(level)!.length > 0) {
+    if (this.lessonsCache.has(level) && this.lessonsCache.get(level)!.length > AppConfig.lessons.navigation.firstIndex) {
       return of(this.lessonsCache.get(level) || []);
     }
     
@@ -111,11 +109,11 @@ export class LessonService {
     const allLessons = this.allLessons();
     const currentIndex = allLessons.findIndex(lesson => lesson.id === currentId);
     
-    if (currentIndex === -1 || currentIndex === allLessons.length - 1) {
+    if (currentIndex === -1 || currentIndex === allLessons.length - AppConfig.lessons.navigation.incrementOffset) {
       return null;
     }
 
-    return allLessons[currentIndex + 1] || null;
+    return allLessons[currentIndex + AppConfig.lessons.navigation.incrementOffset] || null;
   }
 
   /**
@@ -130,11 +128,11 @@ export class LessonService {
     const allLessons = this.allLessons();
     const currentIndex = allLessons.findIndex(lesson => lesson.id === currentId);
     
-    if (currentIndex <= 0) {
+    if (currentIndex <= AppConfig.lessons.navigation.firstIndex) {
       return null;
     }
 
-    return allLessons[currentIndex - 1] || null;
+    return allLessons[currentIndex - AppConfig.lessons.navigation.decrementOffset] || null;
   }
 
   /**

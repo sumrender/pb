@@ -75,6 +75,10 @@ export class LessonListComponent implements OnInit {
     this.router.navigate(['/lesson', lessonId]);
   }
 
+  startQuiz(): void {
+    this.router.navigate(['/quiz', this.level(), 'active']);
+  }
+
   getLessonTypeLabel(type: LessonItem['type']): string {
     return this.lessonTypeLabels()[type] || type;
   }

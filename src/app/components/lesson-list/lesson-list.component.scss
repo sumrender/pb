@@ -36,6 +36,30 @@
   }
 }
 
+.quiz-button {
+  background: var(--primary);
+  color: skyblue;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  margin-left: auto;
+
+  &:hover,
+  &:focus {
+    background: var(--primary-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+
 .loading,
 .empty-state {
   text-align: center;

@@ -1,4 +1,5 @@
 import { Injectable, signal } from '@angular/core';
+import { AppConfig } from '../configuration/config';
 
 @Injectable({
   providedIn: 'root'
@@ -17,7 +18,7 @@ export class AudioService {
     return new Promise((resolve, reject) => {
       // If same audio is already playing, restart it
       if (this.audioElement && this.currentAudioSrc === audioSrc) {
-        this.audioElement.currentTime = 0;
+        this.audioElement.currentTime = AppConfig.audio.resetTime;
         this.audioElement.play()
           .then(() => {
             this._isPlaying.set(true);
@@ -77,7 +78,7 @@ export class AudioService {
   stop(): void {
     if (this.audioElement) {
       this.audioElement.pause();
-      this.audioElement.currentTime = 0;
+      this.audioElement.currentTime = AppConfig.audio.resetTime;
       this.audioElement = null;
       this.currentAudioSrc = null;
     }

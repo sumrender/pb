@@ -1,0 +1,40 @@
+<div class="question-container">
+  <div class="sentence-display">
+    <p class="gurmukhi-sentence">{{ getDisplaySentence() }}</p>
+    <p class="hint">{{ question.transliteration }}</p>
+    @if (question.meaning) {
+      <p class="meaning">{{ question.meaning }}</p>
+    }
+  </div>
+
+  <div class="instruction">
+    <p>Fill in the blank:</p>
+  </div>
+
+  <div class="options">
+    @for (option of question.options; track $index) {
+      <button
+        class="option-btn"
+        [class.selected]="selectedOption() === $index"
+        [class.correct]="selectedOption() === $index && isCorrect()"
+        [class.incorrect]="selectedOption() === $index && !isCorrect()"
+        [class.disabled]="disabledOptions().has($index)"
+        [disabled]="disabledOptions().has($index)"
+        (click)="selectOption($index)"
+      >
+        <span class="option-text">{{ option }}</span>
+        @if (selectedOption() === $index && showFeedback()) {
+          <span class="feedback-icon">
+            {{ isCorrect() ? '✓' : '✗' }}
+          </span>
+        }
+      </button>
+    }
+  </div>
+
+  @if (showFeedback()) {
+    <div class="feedback-message" [class.correct]="isCorrect()" [class.incorrect]="!isCorrect()">
+      {{ isCorrect() ? 'Correct! ✓' : 'Try again' }}
+    </div>
+  }
+</div>

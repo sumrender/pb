@@ -1,0 +1,32 @@
+<div class="question-container">
+  <div class="prompt">
+    <h2>{{ question.prompt }}</h2>
+  </div>
+
+  <div class="options">
+    @for (option of question.options; track $index) {
+    <button
+      class="option-btn"
+      [class.selected]="selectedOption() === $index"
+      [class.correct]="selectedOption() === $index && isCorrect()"
+      [class.incorrect]="selectedOption() === $index && !isCorrect()"
+      [class.disabled]="disabledOptions().has($index)"
+      [disabled]="disabledOptions().has($index)"
+      (click)="selectOption($index)"
+    >
+      <span class="option-text">{{ option }}</span>
+      @if (selectedOption() === $index && showFeedback()) {
+      <span class="feedback-icon">
+        {{ isCorrect() ? '✓' : '✗' }}
+      </span>
+      }
+    </button>
+    }
+  </div>
+
+  @if (showFeedback()) {
+  <div class="feedback-message" [class.correct]="isCorrect()" [class.incorrect]="!isCorrect()">
+    {{ isCorrect() ? 'Correct! ✓' : 'Try again' }}
+  </div>
+  }
+</div>

@@ -1,0 +1,68 @@
+<div class="question-container">
+  @if (question.storyTitle) {
+    <div class="story-title">
+      <h2>{{ question.storyTitle }}</h2>
+    </div>
+  }
+
+  <div class="instruction">
+    <p>Arrange the story lines in the correct order:</p>
+  </div>
+
+  <div class="story-lines">
+    @for (line of getSortedLines(); track line.originalIndex) {
+      <div 
+        class="story-line"
+        [class.correct]="getLineStatus(line) === 'correct'"
+        [class.incorrect]="getLineStatus(line) === 'incorrect'"
+      >
+        <div class="line-content">
+          <span class="line-text">{{ line.text }}</span>
+        </div>
+        
+        @if (!isCorrect()) {
+          <div class="position-selector">
+            <label for="position-{{ line.originalIndex }}">Position:</label>
+            <select
+              id="position-{{ line.originalIndex }}"
+              [ngModel]="line.assignedPosition"
+              (ngModelChange)="onPositionChange(storyLines().indexOf(line), $event)"
+              [disabled]="showFeedback()"
+            >
+              <option [ngValue]="null">--</option>
+              @for (pos of positions(); track pos) {
+                <option [ngValue]="pos">{{ pos }}</option>
+              }
+            </select>
+          </div>
+        } @else {
+          <div class="position-display">
+            <span class="position-number">{{ line.originalIndex + 1 }}</span>
+          </div>
+        }
+      </div>
+    }
+  </div>
+
+  @if (!showFeedback() && canSubmit()) {
+    <button class="submit-btn" (click)="submitAnswer()">
+      Submit Answer
+    </button>
+  }
+
+  @if (showFeedback()) {
+    <div 
+      class="feedback-message" 
+      [class.correct]="isCorrect()" 
+      [class.incorrect]="!isCorrect()"
+    >
+      {{ isCorrect() ? 'Correct! ✓' : 'Try again - fix the incorrect positions' }}
+    </div>
+  }
+
+  @if (showFeedback() && !isCorrect()) {
+    <button class="retry-btn" (click)="reset()">
+      Retry
+    </button>
+  }
+</div>

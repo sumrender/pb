@@ -2,6 +2,9 @@
   <header class="lesson-list-header">
     <button class="back-button" (click)="goToHome()" aria-label="Go back to home">← Back</button>
     <h1>{{ levelTitle() }}</h1>
+    <button class="quiz-button" (click)="startQuiz()" aria-label="Start quiz for this level">
+      📝 Start Quiz
+    </button>
   </header>
 
   @if (loading()) {

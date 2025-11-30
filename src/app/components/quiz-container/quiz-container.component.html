@@ -1,0 +1,26 @@
+<div class="quiz-container">
+  @if (isLoading()) {
+    <div class="loading">
+      <p>Loading quiz...</p>
+    </div>
+  } @else if (error()) {
+    <div class="error">
+      <p>{{ error() }}</p>
+      <button class="btn-primary" (click)="exitQuiz()">Back to Lessons</button>
+    </div>
+  } @else {
+    <header class="quiz-header">
+      <div class="progress-info">
+        <span class="question-number">Question {{ progress.current }} / {{ progress.total }}</span>
+        <span class="score">Score: {{ currentScore }}</span>
+      </div>
+      <button class="exit-btn" (click)="exitQuiz()" title="Exit Quiz">
+        <span>✕</span>
+      </button>
+    </header>
+
+    <div class="question-wrapper">
+      <ng-container #questionContainer></ng-container>
+    </div>
+  }
+</div>

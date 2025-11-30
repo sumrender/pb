@@ -1,0 +1,39 @@
+<div class="question-container">
+  <div class="paragraph-display">
+    <div class="gurmukhi-paragraph" [innerHTML]="getDisplayParagraph()"></div>
+    @if (question.transliteration) {
+      <p class="hint">{{ question.transliteration }}</p>
+    }
+  </div>
+
+  @if (!isComplete()) {
+    <div class="instruction">
+      <p>Fill blank {{ currentBlankIndex() + 1 }} of {{ question.blanks.length }}:</p>
+    </div>
+
+    <div class="options">
+      @if (currentBlank(); as blank) {
+        @for (option of blank.options; track $index) {
+          <button
+            class="option-btn"
+            [class.disabled]="disabledOptions().has($index)"
+            [disabled]="disabledOptions().has($index)"
+            (click)="selectOption($index)"
+          >
+            <span class="option-text">{{ option }}</span>
+          </button>
+        }
+      }
+    </div>
+  }
+
+  @if (showFeedback()) {
+    <div 
+      class="feedback-message" 
+      [class.correct]="isCorrect()" 
+      [class.incorrect]="!isCorrect()"
+    >
+      {{ isCorrect() ? 'Correct! ✓' : 'Try again' }}
+    </div>
+  }
+</div>

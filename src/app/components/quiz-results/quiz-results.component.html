@@ -1,0 +1,45 @@
+<div class="results-container">
+  <div class="results-card" [class]="performanceLevel()">
+    <div class="trophy-icon">
+      @switch (performanceLevel()) {
+        @case ('excellent') {
+          <span class="icon">🌟</span>
+        }
+        @case ('great') {
+          <span class="icon">👍</span>
+        }
+        @case ('good') {
+          <span class="icon">📚</span>
+        }
+        @default {
+          <span class="icon">💪</span>
+        }
+      }
+    </div>
+
+    <h1 class="title">Quiz Complete!</h1>
+
+    <div class="score-display">
+      <div class="score-primary">
+        <span class="score-number">{{ result()?.score }}</span>
+        <span class="score-total">/ {{ result()?.totalQuestions }}</span>
+      </div>
+      <div class="score-percentage">
+        {{ percentage() }}% First-Try Accuracy
+      </div>
+    </div>
+
+    <div class="message">
+      <p>{{ message() }}</p>
+    </div>
+
+    <div class="actions">
+      <button class="btn-retry" (click)="retryQuiz()">
+        🔄 Retry Quiz
+      </button>
+      <button class="btn-lessons" (click)="backToLessons()">
+        📖 Back to Lessons
+      </button>
+    </div>
+  </div>
+</div>
