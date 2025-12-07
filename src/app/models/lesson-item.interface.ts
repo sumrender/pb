@@ -17,3 +17,36 @@ export interface LevelMetadata {
   description: string;
 }
 
+/**
+ * Represents a group of lessons from a single lesson file
+ */
+export interface LessonGroup {
+  level: number;
+  lessonNumber: number; // 1, 2, 3, etc.
+  title?: string; // Optional title for the lesson group (e.g., "Alphabet Basics")
+  description?: string; // Optional description
+  items: LessonItem[];
+}
+
+/**
+ * Metadata about a lesson group for UI display
+ */
+export interface LessonGroupMetadata {
+  level: number;
+  lessonNumber: number;
+  title: string;
+  description?: string;
+  itemCount: number;
+}
+
+/**
+ * Structure of lesson JSON files
+ */
+export interface LessonFileData {
+  metadata?: {
+    title?: string;
+    description?: string;
+  };
+  items: LessonItem[];
+}
+

@@ -77,6 +77,7 @@ export interface ScoringCriteria {
 export interface Quiz {
   id: string;
   level: number;
+  quizNumber: number; // Quiz number within the level (1, 2, 3, etc.)
   title: string;
   questions: QuizQuestion[]; // Exactly 15 questions
   scoringCriteria?: ScoringCriteria; // Optional, will use defaults if not provided

@@ -2,43 +2,73 @@
   <header class="lesson-list-header">
     <button class="back-button" (click)="goToHome()" aria-label="Go back to home">← Back</button>
     <h1>{{ levelTitle() }}</h1>
-    <button class="quiz-button" (click)="startQuiz()" aria-label="Start quiz for this level">
-      📝 Start Quiz
-    </button>
   </header>
 
   @if (loading()) {
   <div class="loading" role="status" aria-live="polite">
     <p>Loading lessons...</p>
   </div>
-  } @else if (lessons().length === 0) {
+  } @else if (lessonGroups().length === 0) {
   <div class="empty-state">
     <p>No lessons available for this level.</p>
     <button class="button-primary" (click)="goToHome()">Go to Home</button>
   </div>
   } @else {
-  <section class="lessons-grid" role="list">
-    @for (lesson of lessons(); track lesson.id) {
-    <article
-      class="lesson-card"
-      role="listitem"
-      (click)="goToLesson(lesson.id)"
-      (keydown.enter)="goToLesson(lesson.id)"
-      (keydown.space)="goToLesson(lesson.id)"
-      tabindex="0"
-      [attr.aria-label]="getLessonTypeLabel(lesson.type) + ': ' + lesson.native"
-    >
-      <div class="lesson-type" aria-hidden="true">
-        {{ getLessonTypeLabel(lesson.type) }}
-      </div>
-      <div class="lesson-native">{{ getDisplayContent(lesson) }}</div>
-      @if (lesson.transliteration && !(lesson.type === 'paragraph' || lesson.type === 'story')) {
-      <div class="lesson-transliteration" aria-hidden="true">
-        {{ lesson.transliteration }}
-      </div>
+
+  <!-- Lesson Groups Section -->
+  <section class="lesson-groups-section">
+    @for (group of lessonGroups(); track group.lessonNumber) {
+    <div class="lesson-group">
+      <h2 class="lesson-group-title">{{ group.title || 'Lesson ' + group.lessonNumber }}</h2>
+      @if (group.description) {
+      <p class="lesson-group-description">{{ group.description }}</p>
       }
-    </article>
+
+      <div class="lessons-grid" role="list">
+        @for (lesson of group.items; track lesson.id) {
+        <article
+          class="lesson-card"
+          role="listitem"
+          (click)="goToLesson(lesson.id)"
+          (keydown.enter)="goToLesson(lesson.id)"
+          (keydown.space)="goToLesson(lesson.id)"
+          tabindex="0"
+          [attr.aria-label]="getLessonTypeLabel(lesson.type) + ': ' + lesson.native"
+        >
+          <div class="lesson-type" aria-hidden="true">
+            {{ getLessonTypeLabel(lesson.type) }}
+          </div>
+          <div class="lesson-native">{{ getDisplayContent(lesson) }}</div>
+          @if (lesson.transliteration && !(lesson.type === 'paragraph' || lesson.type === 'story'))
+          {
+          <div class="lesson-transliteration" aria-hidden="true">
+            {{ lesson.transliteration }}
+          </div>
+          }
+        </article>
+        }
+      </div>
+    </div>
     }
   </section>
-  }
+
+  <!-- Quizzes Section -->
+  @if (quizzes().length > 0) {
+  <section class="quizzes-section">
+    <h2 class="quizzes-title">Quizzes</h2>
+    <div class="quizzes-grid">
+      @for (quiz of quizzes(); track quiz.id) {
+      <button
+        class="quiz-card"
+        (click)="startQuiz(quiz.quizNumber)"
+        [attr.aria-label]="'Start ' + quiz.title"
+      >
+        <div class="quiz-icon">📝</div>
+        <div class="quiz-title">{{ quiz.title }}</div>
+        <div class="quiz-subtitle">{{ quiz.questions.length }} questions</div>
+      </button>
+      }
+    </div>
+  </section>
+  } }
 </main>

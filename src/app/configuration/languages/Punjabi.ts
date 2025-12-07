@@ -25,8 +25,8 @@ export const PunjabiConfig: LanguageConfig = {
   fontFamily: "'Noto Sans Gurmukhi', sans-serif",
   googleFontsUrl: 'https://fonts.googleapis.com/css2?family=Noto+Sans+Gurmukhi:wght@400;700&display=swap',
   localStoragePrefix: 'punjabi-reading-app',
-  lessonsPathTemplate: 'assets/punjabi/lessons/level-{level}.json',
-  quizzesPathTemplate: 'assets/punjabi/quizzes/level-{level}.json',
+  lessonsPathTemplate: 'assets/punjabi/lessons/level-{level}-lesson-{lessonNumber}.json',
+  quizzesPathTemplate: 'assets/punjabi/quizzes/level-{level}-quiz-{quizNumber}.json',
   ui: {
     subtitle: 'Learn to read Gurmukhi script',
     levelDescriptions: {

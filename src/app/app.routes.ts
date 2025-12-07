@@ -10,8 +10,8 @@ export const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'level/:levelId', component: LessonListComponent },
   { path: 'lesson/:lessonId', component: LessonViewerComponent },
-  { path: 'quiz/:level/active', component: QuizContainerComponent },
-  { path: 'quiz/:level/results', component: QuizResultsComponent },
+  { path: 'quiz/:level/:quizNumber/active', component: QuizContainerComponent },
+  { path: 'quiz/:level/:quizNumber/results', component: QuizResultsComponent },
   { path: 'settings', component: SettingsComponent },
   { path: '**', redirectTo: '' }
 ];

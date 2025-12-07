@@ -2,7 +2,9 @@ import { Component, OnInit, signal, computed, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 import { LessonService } from '../../services/lesson.service';
-import { LessonItem } from '../../models/lesson-item.interface';
+import { QuizService } from '../../services/quiz.service';
+import { LessonItem, LessonGroup } from '../../models/lesson-item.interface';
+import { Quiz } from '../../models/quiz.interface';
 
 @Component({
   selector: 'app-lesson-list',
@@ -15,9 +17,11 @@ export class LessonListComponent implements OnInit {
   private route = inject(ActivatedRoute);
   private router = inject(Router);
   private lessonService = inject(LessonService);
+  private quizService = inject(QuizService);
 
   level = signal<number>(1);
-  lessons = signal<LessonItem[]>([]);
+  lessonGroups = signal<LessonGroup[]>([]);
+  quizzes = signal<Quiz[]>([]);
   loading = signal<boolean>(false);
   
   readonly levelTitles = signal<Record<number, string>>({
@@ -55,14 +59,28 @@ export class LessonListComponent implements OnInit {
 
   loadLessons(): void {
     this.loading.set(true);
-    this.lessonService.getLessonsByLevel(this.level()).subscribe({
-      next: (lessons) => {
-        this.lessons.set(lessons);
+    this.lessonService.getLessonGroupsByLevel(this.level()).subscribe({
+      next: (groups) => {
+        this.lessonGroups.set(groups);
         this.loading.set(false);
       },
       error: (error) => {
-        this.lessons.set([]);
+        this.lessonGroups.set([]);
         this.loading.set(false);
+      }
+    });
+    
+    // Load available quizzes for this level
+    this.loadQuizzes();
+  }
+
+  loadQuizzes(): void {
+    this.quizService.getQuizzesByLevel(this.level()).subscribe({
+      next: (quizzes) => {
+        this.quizzes.set(quizzes);
+      },
+      error: (error) => {
+        this.quizzes.set([]);
       }
     });
   }
@@ -75,8 +93,8 @@ export class LessonListComponent implements OnInit {
     this.router.navigate(['/lesson', lessonId]);
   }
 
-  startQuiz(): void {
-    this.router.navigate(['/quiz', this.level(), 'active']);
+  startQuiz(quizNumber: number = 1): void {
+    this.router.navigate(['/quiz', this.level(), quizNumber, 'active']);
   }
 
   getLessonTypeLabel(type: LessonItem['type']): string {

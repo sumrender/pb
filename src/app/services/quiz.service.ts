@@ -1,6 +1,6 @@
 import { Injectable, signal, computed, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable, map } from 'rxjs';
+import { Observable, map, forkJoin, of, catchError } from 'rxjs';
 import { 
   Quiz, 
   QuizQuestion, 
@@ -52,10 +52,12 @@ export class QuizService {
   readonly quizComplete = computed(() => this.isQuizComplete());
 
   /**
-   * Load quiz data from JSON file by level
+   * Load quiz data from JSON file by level and quiz number
    */
-  loadQuiz(level: number): Observable<Quiz> {
-    const filePath = this.languageService.config.quizzesPathTemplate.replace('{level}', String(level));
+  loadQuiz(level: number, quizNumber: number = 1): Observable<Quiz> {
+    const filePath = this.languageService.config.quizzesPathTemplate
+      .replace('{level}', String(level))
+      .replace('{quizNumber}', String(quizNumber));
     return this.http.get<Quiz>(filePath).pipe(
       map(quiz => {
         this.currentQuiz.set(quiz);
@@ -65,6 +67,32 @@ export class QuizService {
         this.isQuizComplete.set(false);
         return quiz;
       })
+    );
+  }
+
+  /**
+   * Get all available quizzes for a specific level
+   * Attempts to load multiple quiz files (level-X-quiz-1.json, level-X-quiz-2.json, etc.)
+   */
+  getQuizzesByLevel(level: number): Observable<Quiz[]> {
+    const maxQuizzes = AppConfig.quiz.maxQuizzesPerLevel;
+    const requests: Observable<Quiz | null>[] = [];
+
+    // Try to load each potential quiz file
+    for (let quizNumber = 1; quizNumber <= maxQuizzes; quizNumber++) {
+      const filePath = this.languageService.config.quizzesPathTemplate
+        .replace('{level}', String(level))
+        .replace('{quizNumber}', String(quizNumber));
+
+      const request = this.http.get<Quiz>(filePath).pipe(
+        catchError(() => of(null)) // Return null if file doesn't exist
+      );
+      
+      requests.push(request);
+    }
+
+    return forkJoin(requests).pipe(
+      map(quizzes => quizzes.filter(quiz => quiz !== null) as Quiz[])
     );
   }
 

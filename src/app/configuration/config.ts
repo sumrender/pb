@@ -28,6 +28,7 @@ export const AppConfig = {
     totalLevels: 5,
     assetPathTemplate: 'assets/lessons/level-{level}.json',
     firstLevelIndex: 1,
+    maxLessonsPerLevel: 10, // Maximum lesson files to check per level
     navigation: {
       firstIndex: 0,
       incrementOffset: 1,
@@ -44,6 +45,7 @@ export const AppConfig = {
     initialScore: 0,
     initialAttempts: 0,
     incrementOffset: 1,
+    maxQuizzesPerLevel: 10, // Maximum quiz files to check per level
     
     /**
      * Scoring thresholds for encouraging messages

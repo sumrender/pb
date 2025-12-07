@@ -38,7 +38,9 @@ export class QuizContainerComponent implements OnInit {
 
   ngOnInit(): void {
     const levelParam = this.route.snapshot.paramMap.get('level');
+    const quizNumberParam = this.route.snapshot.paramMap.get('quizNumber');
     const level = levelParam ? parseInt(levelParam, 10) : null;
+    const quizNumber = quizNumberParam ? parseInt(quizNumberParam, 10) : 1;
 
     if (!level || level < 1 || level > 5) {
       this.error.set('Invalid quiz level');
@@ -46,7 +48,7 @@ export class QuizContainerComponent implements OnInit {
       return;
     }
 
-    this.quizService.loadQuiz(level).subscribe({
+    this.quizService.loadQuiz(level, quizNumber).subscribe({
       next: () => {
         this.isLoading.set(false);
         // Trigger render after loading complete
@@ -135,7 +137,8 @@ export class QuizContainerComponent implements OnInit {
     if (this.quizService.quizComplete()) {
       // Navigate to results
       const level = this.route.snapshot.paramMap.get('level');
-      this.router.navigate(['/quiz', level, 'results']);
+      const quizNumber = this.route.snapshot.paramMap.get('quizNumber');
+      this.router.navigate(['/quiz', level, quizNumber, 'results']);
     } else {
       // Render next question
       setTimeout(() => {

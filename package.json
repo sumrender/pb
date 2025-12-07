@@ -4,10 +4,14 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "prestart": "npm run lint",
     "build": "ng build",
+    "prebuild": "npm run lint",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "lint:json": "node scripts/validate-json.js",
     "lint:styles": "stylelint \"src/**/*.scss\"",
+    "lint": "npm run lint:json && npm run lint:styles",
     "prepare": "husky"
   },
   "prettier": {

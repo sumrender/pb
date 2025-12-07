@@ -1,6 +1,7 @@
 {
   "id": "quiz-level5-stories-01",
   "level": 5,
+  "quizNumber": 1,
   "title": "Story Sequencing Quiz",
   "scoringCriteria": {
     "excellent": 13,
@@ -11,6 +12,7 @@
     {
       "id": "q1",
       "level": 5,
+  "quizNumber": 1,
       "type": "story",
       "storyTitle": "सवेरा का रुटीन",
       "lines": [
@@ -23,6 +25,7 @@
     {
       "id": "q2",
       "level": 5,
+  "quizNumber": 1,
       "type": "story",
       "storyTitle": "किताब पढ़ना",
       "lines": [
@@ -35,6 +38,7 @@
     {
       "id": "q3",
       "level": 5,
+  "quizNumber": 1,
       "type": "story",
       "storyTitle": "खाना बनाना",
       "lines": [
@@ -47,6 +51,7 @@
     {
       "id": "q4",
       "level": 5,
+  "quizNumber": 1,
       "type": "story",
       "storyTitle": "स्कूल जाना",
       "lines": [
@@ -60,6 +65,7 @@
     {
       "id": "q5",
       "level": 5,
+  "quizNumber": 1,
       "type": "story",
       "storyTitle": "बाज़ार जाना",
       "lines": [
@@ -72,6 +78,7 @@
     {
       "id": "q6",
       "level": 5,
+  "quizNumber": 1,
       "type": "story",
       "storyTitle": "बाग़ में खेलना",
       "lines": [
@@ -84,6 +91,7 @@
     {
       "id": "q7",
       "level": 5,
+  "quizNumber": 1,
       "type": "story",
       "storyTitle": "पेड़ लगाना",
       "lines": [
@@ -96,6 +104,7 @@
     {
       "id": "q8",
       "level": 5,
+  "quizNumber": 1,
       "type": "story",
       "storyTitle": "पंछी की कहानी",
       "lines": [
@@ -108,6 +117,7 @@
     {
       "id": "q9",
       "level": 5,
+  "quizNumber": 1,
       "type": "story",
       "storyTitle": "ठंड का दिन",
       "lines": [
@@ -120,6 +130,7 @@
     {
       "id": "q10",
       "level": 5,
+  "quizNumber": 1,
       "type": "story",
       "storyTitle": "मित्रता",
       "lines": [
@@ -132,6 +143,7 @@
     {
       "id": "q11",
       "level": 5,
+  "quizNumber": 1,
       "type": "story",
       "storyTitle": "जन्मदिन",
       "lines": [
@@ -144,6 +156,7 @@
     {
       "id": "q12",
       "level": 5,
+  "quizNumber": 1,
       "type": "story",
       "storyTitle": "बारिश",
       "lines": [
@@ -156,6 +169,7 @@
     {
       "id": "q13",
       "level": 5,
+  "quizNumber": 1,
       "type": "story",
       "storyTitle": "सेहत का ध्यान",
       "lines": [
@@ -168,6 +182,7 @@
     {
       "id": "q14",
       "level": 5,
+  "quizNumber": 1,
       "type": "story",
       "storyTitle": "यात्रा",
       "lines": [
@@ -181,6 +196,7 @@
     {
       "id": "q15",
       "level": 5,
+  "quizNumber": 1,
       "type": "story",
       "storyTitle": "पढ़ाई",
       "lines": [
@@ -192,4 +208,3 @@
     }
   ]
 }
-

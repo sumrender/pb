@@ -43,7 +43,8 @@ export class QuizResultsComponent implements OnInit {
   retryQuiz(): void {
     this.quizService.resetQuiz();
     const level = this.route.snapshot.paramMap.get('level');
-    this.router.navigate(['/quiz', level, 'active']);
+    const quizNumber = this.route.snapshot.paramMap.get('quizNumber');
+    this.router.navigate(['/quiz', level, quizNumber, 'active']);
   }
 
   backToLessons(): void {

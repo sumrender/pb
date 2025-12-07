@@ -1,6 +1,7 @@
 {
   "id": "quiz-level3-sentences-01",
   "level": 3,
+  "quizNumber": 1,
   "title": "Fill in the Blank Quiz",
   "scoringCriteria": {
     "excellent": 13,
@@ -11,153 +12,242 @@
     {
       "id": "q1",
       "level": 3,
+  "quizNumber": 1,
       "type": "sentence",
       "sentence": "मैं {{blank}} जाता हूँ।",
       "transliteration": "Main ___ jata hoon.",
       "meaning": "I go to ___.",
-      "options": ["घर", "स्कूल", "बाज़ार", "पार्क"],
+      "options": [
+        "घर",
+        "स्कूल",
+        "बाज़ार",
+        "पार्क"
+      ],
       "correctAnswerIndex": 1
     },
     {
       "id": "q2",
       "level": 3,
+  "quizNumber": 1,
       "type": "sentence",
       "sentence": "मेरी {{blank}} बहुत अच्छी है।",
       "transliteration": "Meri ___ bahut achchi hai.",
       "meaning": "My ___ is very good.",
-      "options": ["माँ", "किताब", "सहेली", "बहन"],
+      "options": [
+        "माँ",
+        "किताब",
+        "सहेली",
+        "बहन"
+      ],
       "correctAnswerIndex": 0
     },
     {
       "id": "q3",
       "level": 3,
+  "quizNumber": 1,
       "type": "sentence",
       "sentence": "हमें {{blank}} पीना चाहिए।",
       "transliteration": "Hamein ___ peena chahiye.",
       "meaning": "We should drink ___.",
-      "options": ["पानी", "दूध", "रस", "चाय"],
+      "options": [
+        "पानी",
+        "दूध",
+        "रस",
+        "चाय"
+      ],
       "correctAnswerIndex": 0
     },
     {
       "id": "q4",
       "level": 3,
+  "quizNumber": 1,
       "type": "sentence",
       "sentence": "मैं {{blank}} खाता हूँ।",
       "transliteration": "Main ___ khata hoon.",
       "meaning": "I eat ___.",
-      "options": ["रोटी", "चावल", "सब्ज़ी", "फल"],
+      "options": [
+        "रोटी",
+        "चावल",
+        "सब्ज़ी",
+        "फल"
+      ],
       "correctAnswerIndex": 0
     },
     {
       "id": "q5",
       "level": 3,
+  "quizNumber": 1,
       "type": "sentence",
       "sentence": "यह {{blank}} बहुत अच्छा है।",
       "transliteration": "Yeh ___ bahut achcha hai.",
       "meaning": "This ___ is very good.",
-      "options": ["किताब", "फिल्म", "खाना", "गीत"],
+      "options": [
+        "किताब",
+        "फिल्म",
+        "खाना",
+        "गीत"
+      ],
       "correctAnswerIndex": 0
     },
     {
       "id": "q6",
       "level": 3,
+  "quizNumber": 1,
       "type": "sentence",
       "sentence": "हम {{blank}} में रहते हैं।",
       "transliteration": "Hum ___ mein rehte hain.",
       "meaning": "We live in ___.",
-      "options": ["घर", "कमरा", "शहर", "गाँव"],
+      "options": [
+        "घर",
+        "कमरा",
+        "शहर",
+        "गाँव"
+      ],
       "correctAnswerIndex": 2
     },
     {
       "id": "q7",
       "level": 3,
+  "quizNumber": 1,
       "type": "sentence",
       "sentence": "वह {{blank}} खोलता है।",
       "transliteration": "Vah ___ kholta hai.",
       "meaning": "He opens ___.",
-      "options": ["दरवाज़ा", "खिड़की", "किताब", "बक्सा"],
+      "options": [
+        "दरवाज़ा",
+        "खिड़की",
+        "किताब",
+        "बक्सा"
+      ],
       "correctAnswerIndex": 0
     },
     {
       "id": "q8",
       "level": 3,
+  "quizNumber": 1,
       "type": "sentence",
       "sentence": "फूल की {{blank}} बहुत मीठी है।",
       "transliteration": "Phool ki ___ bahut meethee hai.",
       "meaning": "The flower's ___ is very sweet.",
-      "options": ["खुशबू", "रंग", "पत्ती", "सुंदरता"],
+      "options": [
+        "खुशबू",
+        "रंग",
+        "पत्ती",
+        "सुंदरता"
+      ],
       "correctAnswerIndex": 0
     },
     {
       "id": "q9",
       "level": 3,
+  "quizNumber": 1,
       "type": "sentence",
       "sentence": "{{blank}} लोग यहाँ हैं।",
       "transliteration": "___ log yahan hain.",
       "meaning": "___ people are here.",
-      "options": ["सब", "कुछ", "बहुत", "थोड़े"],
+      "options": [
+        "सब",
+        "कुछ",
+        "बहुत",
+        "थोड़े"
+      ],
       "correctAnswerIndex": 0
     },
     {
       "id": "q10",
       "level": 3,
+  "quizNumber": 1,
       "type": "sentence",
       "sentence": "मेरी {{blank}} बहुत कीमती है।",
       "transliteration": "Meri ___ bahut keemti hai.",
       "meaning": "My ___ is very valuable.",
-      "options": ["जान", "ज़िंदगी", "समय", "मित्र"],
+      "options": [
+        "जान",
+        "ज़िंदगी",
+        "समय",
+        "मित्र"
+      ],
       "correctAnswerIndex": 0
     },
     {
       "id": "q11",
       "level": 3,
+  "quizNumber": 1,
       "type": "sentence",
       "sentence": "आज {{blank}} है।",
       "transliteration": "Aaj ___ hai.",
       "meaning": "Today is ___.",
-      "options": ["दिन", "सोमवार", "वार", "मौसम"],
+      "options": [
+        "दिन",
+        "सोमवार",
+        "वार",
+        "मौसम"
+      ],
       "correctAnswerIndex": 1
     },
     {
       "id": "q12",
       "level": 3,
+  "quizNumber": 1,
       "type": "sentence",
       "sentence": "{{blank}} बहुत काली है।",
       "transliteration": "___ bahut kaali hai.",
       "meaning": "The ___ is very dark.",
-      "options": ["रात", "शाम", "आसमान", "कमरा"],
+      "options": [
+        "रात",
+        "शाम",
+        "आसमान",
+        "कमरा"
+      ],
       "correctAnswerIndex": 0
     },
     {
       "id": "q13",
       "level": 3,
+  "quizNumber": 1,
       "type": "sentence",
       "sentence": "यह {{blank}} है।",
       "transliteration": "Yeh ___ hai.",
       "meaning": "This is ___.",
-      "options": ["सच", "झूठ", "सही", "गलत"],
+      "options": [
+        "सच",
+        "झूठ",
+        "सही",
+        "गलत"
+      ],
       "correctAnswerIndex": 0
     },
     {
       "id": "q14",
       "level": 3,
+  "quizNumber": 1,
       "type": "sentence",
       "sentence": "मुझे तेरा {{blank}} बहुत पसंद है।",
       "transliteration": "Mujhe tera ___ bahut pasand hai.",
       "meaning": "I like your ___ very much.",
-      "options": ["प्यार", "विचार", "गीत", "रंग"],
+      "options": [
+        "प्यार",
+        "विचार",
+        "गीत",
+        "रंग"
+      ],
       "correctAnswerIndex": 0
     },
     {
       "id": "q15",
       "level": 3,
+  "quizNumber": 1,
       "type": "sentence",
       "sentence": "बाहर {{blank}} बहुत तेज़ है।",
       "transliteration": "Baahar ___ bahut tez hai.",
       "meaning": "Outside, the ___ is very strong.",
-      "options": ["धूप", "ठंड", "हवा", "बारिश"],
+      "options": [
+        "धूप",
+        "ठंड",
+        "हवा",
+        "बारिश"
+      ],
       "correctAnswerIndex": 0
     }
   ]
 }
-

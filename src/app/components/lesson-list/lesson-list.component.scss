@@ -69,6 +69,91 @@
   color: $color-text-secondary;
 }
 
+.lesson-groups-section {
+  margin-bottom: 3rem;
+}
+
+.lesson-group {
+  margin-bottom: 3rem;
+
+  &:last-child {
+    margin-bottom: 2rem;
+  }
+}
+
+.lesson-group-title {
+  font-size: 1.5rem;
+  color: $color-text-primary;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.lesson-group-description {
+  color: $color-text-secondary;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.quizzes-section {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: $color-border-thin;
+}
+
+.quizzes-title {
+  font-size: 1.5rem;
+  color: $color-text-primary;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.quizzes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.quiz-card {
+  background: $color-card-background;
+  border: $color-border-thin;
+  border-radius: 8px;
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  &:hover,
+  &:focus {
+    transform: translateY(-4px);
+    box-shadow: $color-shadow-md;
+    outline: $color-outline-focus;
+    outline-offset: 2px;
+  }
+
+  &:active {
+    transform: translateY(-2px);
+  }
+}
+
+.quiz-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.quiz-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: $color-text-primary;
+}
+
+.quiz-subtitle {
+  font-size: 0.875rem;
+  color: $color-text-secondary;
+}
+
 .lessons-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
