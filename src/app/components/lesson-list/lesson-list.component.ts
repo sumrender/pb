@@ -97,6 +97,10 @@ export class LessonListComponent implements OnInit {
     this.router.navigate(['/quiz', this.level(), quizNumber, 'active']);
   }
 
+  goToRandomPractice(): void {
+    this.router.navigate(['/level', this.level(), 'random']);
+  }
+
   getLessonTypeLabel(type: LessonItem['type']): string {
     return this.lessonTypeLabels()[type] || type;
   }

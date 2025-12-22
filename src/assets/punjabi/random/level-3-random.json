@@ -1,0 +1,379 @@
+[
+  {
+    "id": "l3_r1",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਇਹ ਮੇਰਾ ਘਰ ਹੈ।",
+    "transliteration": "Eh mera ghar hai.",
+    "meaning": "This is my home.",
+    "audioSrc": "assets/audio/sentence1.mp3"
+  },
+  {
+    "id": "l3_r2",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਮੈਂ ਪੰਜਾਬੀ ਸਿੱਖ ਰਿਹਾ ਹਾਂ।",
+    "transliteration": "Main Punjabi sikh riha haan.",
+    "meaning": "I am learning Punjabi.",
+    "audioSrc": "assets/audio/sentence2.mp3"
+  },
+  {
+    "id": "l3_r3",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਤੁਹਾਡਾ ਨਾਮ ਕੀ ਹੈ?",
+    "transliteration": "Tuhada naam ki hai?",
+    "meaning": "What is your name?",
+    "audioSrc": "assets/audio/sentence3.mp3"
+  },
+  {
+    "id": "l3_r4",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ।",
+    "transliteration": "Sat Sri Akal.",
+    "meaning": "Hello (Sikh greeting).",
+    "audioSrc": "assets/audio/sentence4.mp3"
+  },
+  {
+    "id": "l3_r5",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਪਾਣੀ ਪੀਓ।",
+    "transliteration": "Paani pio.",
+    "meaning": "Drink water.",
+    "audioSrc": "assets/audio/sentence5.mp3"
+  },
+  {
+    "id": "l3_r6",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਫਲ ਖਾਓ।",
+    "transliteration": "Phal khao.",
+    "meaning": "Eat fruit.",
+    "audioSrc": "assets/audio/sentence6.mp3"
+  },
+  {
+    "id": "l3_r7",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਬਸ ਆ ਗਈ।",
+    "transliteration": "Bus aa gayi.",
+    "meaning": "The bus has arrived.",
+    "audioSrc": "assets/audio/sentence7.mp3"
+  },
+  {
+    "id": "l3_r8",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਕਿਤਾਬ ਪੜ੍ਹੋ।",
+    "transliteration": "Kitaab parho.",
+    "meaning": "Read the book.",
+    "audioSrc": "assets/audio/sentence8.mp3"
+  },
+  {
+    "id": "l3_r9",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਦਰਵਾਜ਼ਾ ਬੰਦ ਕਰੋ।",
+    "transliteration": "Darwaza band karo.",
+    "meaning": "Close the door.",
+    "audioSrc": "assets/audio/sentence9.mp3"
+  },
+  {
+    "id": "l3_r10",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਮੈਨੂੰ ਭੁੱਖ ਲੱਗੀ ਹੈ।",
+    "transliteration": "Mainu bhukh laggi hai.",
+    "meaning": "I am hungry.",
+    "audioSrc": "assets/audio/sentence10.mp3"
+  },
+  {
+    "id": "l3_r11",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਅੱਜ ਮੌਸਮ ਵਧੀਆ ਹੈ।",
+    "transliteration": "Ajj mausam vadiya hai.",
+    "meaning": "The weather is nice today.",
+    "audioSrc": "assets/audio/sentence11.mp3"
+  },
+  {
+    "id": "l3_r12",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਧੰਨਵਾਦ।",
+    "transliteration": "Dhanvaad.",
+    "meaning": "Thank you.",
+    "audioSrc": "assets/audio/sentence12.mp3"
+  },{
+    "id": "l3_r13",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਮੈਂ ਸਕੂਲ ਜਾਂਦਾ ਹਾਂ।",
+    "transliteration": "Main school janda haan.",
+    "meaning": "I go to school.",
+    "audioSrc": "assets/audio/sentence13.mp3"
+  },
+  {
+    "id": "l3_r14",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਉਹ ਮੇਰਾ ਦੋਸਤ ਹੈ।",
+    "transliteration": "Oh mera dost hai.",
+    "meaning": "He is my friend.",
+    "audioSrc": "assets/audio/sentence14.mp3"
+  },
+  {
+    "id": "l3_r15",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਮਾਂ ਘਰ ਹੈ।",
+    "transliteration": "Maa ghar hai.",
+    "meaning": "Mother is at home.",
+    "audioSrc": "assets/audio/sentence15.mp3"
+  },
+  {
+    "id": "l3_r16",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਪਿਤਾ ਕੰਮ ਕਰ ਰਹੇ ਹਨ।",
+    "transliteration": "Pita kaam kar rahe han.",
+    "meaning": "Father is working.",
+    "audioSrc": "assets/audio/sentence16.mp3"
+  },
+  {
+    "id": "l3_r17",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਮੈਨੂੰ ਚਾਹ ਚਾਹੀਦੀ ਹੈ।",
+    "transliteration": "Mainu chaah chahidi hai.",
+    "meaning": "I want tea.",
+    "audioSrc": "assets/audio/sentence17.mp3"
+  },
+  {
+    "id": "l3_r18",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਉਹ ਕਿਤਾਬ ਲੈ ਆਇਆ।",
+    "transliteration": "Oh kitaab lai aaya.",
+    "meaning": "He brought the book.",
+    "audioSrc": "assets/audio/sentence18.mp3"
+  },
+  {
+    "id": "l3_r19",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਅਸੀਂ ਖੇਡ ਰਹੇ ਹਾਂ।",
+    "transliteration": "Asi khed rahe haan.",
+    "meaning": "We are playing.",
+    "audioSrc": "assets/audio/sentence19.mp3"
+  },
+  {
+    "id": "l3_r20",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਬੱਚੇ ਖੁਸ਼ ਹਨ।",
+    "transliteration": "Bachche khush han.",
+    "meaning": "The children are happy.",
+    "audioSrc": "assets/audio/sentence20.mp3"
+  },
+  {
+    "id": "l3_r21",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਕਲਾਸ ਸ਼ੁਰੂ ਹੋ ਗਈ।",
+    "transliteration": "Class shuru ho gayi.",
+    "meaning": "The class has started.",
+    "audioSrc": "assets/audio/sentence21.mp3"
+  },
+  {
+    "id": "l3_r22",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਉਹ ਗਾਣਾ ਸੁਣ ਰਿਹਾ ਹੈ।",
+    "transliteration": "Oh gaana sun riha hai.",
+    "meaning": "He is listening to a song.",
+    "audioSrc": "assets/audio/sentence22.mp3"
+  },
+  {
+    "id": "l3_r23",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਮੈਂ ਲਿਖਣਾ ਸਿੱਖ ਰਿਹਾ ਹਾਂ।",
+    "transliteration": "Main likhna sikh riha haan.",
+    "meaning": "I am learning to write.",
+    "audioSrc": "assets/audio/sentence23.mp3"
+  },
+  {
+    "id": "l3_r24",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਸੂਰਜ ਚੜ੍ਹ ਗਿਆ।",
+    "transliteration": "Suraj chadh gaya.",
+    "meaning": "The sun has risen.",
+    "audioSrc": "assets/audio/sentence24.mp3"
+  },
+  {
+    "id": "l3_r25",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਰਾਤ ਹੋ ਗਈ ਹੈ।",
+    "transliteration": "Raat ho gayi hai.",
+    "meaning": "It has become night.",
+    "audioSrc": "assets/audio/sentence25.mp3"
+  },
+  {
+    "id": "l3_r26",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਕਿਰਪਾ ਕਰਕੇ ਬੈਠੋ।",
+    "transliteration": "Kirpa karke baitho.",
+    "meaning": "Please sit down.",
+    "audioSrc": "assets/audio/sentence26.mp3"
+  },
+  {
+    "id": "l3_r27",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਮੈਂ ਘਰ ਜਾ ਰਿਹਾ ਹਾਂ।",
+    "transliteration": "Main ghar ja riha haan.",
+    "meaning": "I am going home.",
+    "audioSrc": "assets/audio/sentence27.mp3"
+  },
+  {
+    "id": "l3_r28",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਉਹ ਦਫ਼ਤਰ ਵਿੱਚ ਹੈ।",
+    "transliteration": "Oh daftar vich hai.",
+    "meaning": "He is in the office.",
+    "audioSrc": "assets/audio/sentence28.mp3"
+  },
+  {
+    "id": "l3_r29",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਮੈਨੂੰ ਸਮਝ ਆ ਗਈ।",
+    "transliteration": "Mainu samajh aa gayi.",
+    "meaning": "I understand.",
+    "audioSrc": "assets/audio/sentence29.mp3"
+  },
+  {
+    "id": "l3_r30",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਘੜੀ ਵੱਜ ਗਈ।",
+    "transliteration": "Ghadi vajj gayi.",
+    "meaning": "The clock rang.",
+    "audioSrc": "assets/audio/sentence30.mp3"
+  },
+  {
+    "id": "l3_r31",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਕੁੱਤਾ ਦੌੜ ਰਿਹਾ ਹੈ।",
+    "transliteration": "Kutta daur riha hai.",
+    "meaning": "The dog is running.",
+    "audioSrc": "assets/audio/sentence31.mp3"
+  },
+  {
+    "id": "l3_r32",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਬਿੱਲੀ ਸੋ ਰਹੀ ਹੈ।",
+    "transliteration": "Billi so rahi hai.",
+    "meaning": "The cat is sleeping.",
+    "audioSrc": "assets/audio/sentence32.mp3"
+  },
+  {
+    "id": "l3_r33",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਅਸੀਂ ਫਿਲਮ ਦੇਖੀ।",
+    "transliteration": "Asi film dekhi.",
+    "meaning": "We watched a movie.",
+    "audioSrc": "assets/audio/sentence33.mp3"
+  },
+  {
+    "id": "l3_r34",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਉਹ ਹੱਸ ਰਿਹਾ ਹੈ।",
+    "transliteration": "Oh hass riha hai.",
+    "meaning": "He is laughing.",
+    "audioSrc": "assets/audio/sentence34.mp3"
+  },
+  {
+    "id": "l3_r35",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਮੈਂ ਸਵਾਲ ਪੁੱਛਿਆ।",
+    "transliteration": "Main sawaal puchhiya.",
+    "meaning": "I asked a question.",
+    "audioSrc": "assets/audio/sentence35.mp3"
+  },
+  {
+    "id": "l3_r36",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਉੱਤਰ ਸਹੀ ਹੈ।",
+    "transliteration": "Uttar sahi hai.",
+    "meaning": "The answer is correct.",
+    "audioSrc": "assets/audio/sentence36.mp3"
+  },
+  {
+    "id": "l3_r37",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਕਲ ਛੁੱਟੀ ਹੈ।",
+    "transliteration": "Kal chhutti hai.",
+    "meaning": "Tomorrow is a holiday.",
+    "audioSrc": "assets/audio/sentence37.mp3"
+  },
+  {
+    "id": "l3_r38",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਅਸੀਂ ਬਾਜ਼ਾਰ ਗਏ।",
+    "transliteration": "Asi bazaar gaye.",
+    "meaning": "We went to the market.",
+    "audioSrc": "assets/audio/sentence38.mp3"
+  },
+  {
+    "id": "l3_r39",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਸਬਜ਼ੀ ਤਾਜ਼ੀ ਹੈ।",
+    "transliteration": "Sabzi taazi hai.",
+    "meaning": "The vegetables are fresh.",
+    "audioSrc": "assets/audio/sentence39.mp3"
+  },
+  {
+    "id": "l3_r40",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਮੈਂ ਤਿਆਰ ਹਾਂ।",
+    "transliteration": "Main tayaar haan.",
+    "meaning": "I am ready.",
+    "audioSrc": "assets/audio/sentence40.mp3"
+  },
+  {
+    "id": "l3_r41",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਉਹ ਆ ਰਿਹਾ ਹੈ।",
+    "transliteration": "Oh aa riha hai.",
+    "meaning": "He is coming.",
+    "audioSrc": "assets/audio/sentence41.mp3"
+  },
+  {
+    "id": "l3_r42",
+    "level": 3,
+    "type": "sentence",
+    "native": "ਚਲੋ ਸ਼ੁਰੂ ਕਰੀਏ।",
+    "transliteration": "Chalo shuru kariye.",
+    "meaning": "Let’s begin.",
+    "audioSrc": "assets/audio/sentence42.mp3"
+  }
+]

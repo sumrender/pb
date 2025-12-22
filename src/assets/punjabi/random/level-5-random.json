@@ -1,0 +1,110 @@
+[
+  {
+    "id": "l5_r1",
+    "level": 5,
+    "type": "story",
+    "title": "ਪਿਆਸਾ ਕਾਂ",
+    "native": "ਇੱਕ ਵਾਰ ਇੱਕ ਕਾਂ ਪਿਆਸਾ ਸੀ। ਉਹ ਪਾਣੀ ਦੀ ਭਾਲ ਵਿੱਚ ਇੱਧਰ-ਉੱਧਰ ਉੱਡ ਰਿਹਾ ਸੀ। ਅਖੀਰ ਉਸਨੂੰ ਇੱਕ ਬਾਗ ਵਿੱਚ ਇੱਕ ਘੜਾ ਦਿਖਾਈ ਦਿੱਤਾ। ਘੜੇ ਵਿੱਚ ਪਾਣੀ ਬਹੁਤ ਘੱਟ ਸੀ। ਕਾਂ ਨੇ ਆਪਣੀ ਚੁੰਝ ਪਾਣੀ ਤੱਕ ਪਹੁੰਚਾਉਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ ਪਰ ਉਹ ਅਸਫਲ ਰਿਹਾ। ਫਿਰ ਉਸਨੂੰ ਇੱਕ ਤਰਕੀਬ ਸੁਝੀ। ਉਸਨੇ ਨੇੜੇ ਪਏ ਕੰਕਰ ਚੁੱਕ ਕੇ ਘੜੇ ਵਿੱਚ ਪਾਉਣੇ ਸ਼ੁਰੂ ਕਰ ਦਿੱਤੇ। ਹੌਲੀ-ਹੌਲੀ ਪਾਣੀ ਉੱਪਰ ਆ ਗਿਆ। ਕਾਂ ਨੇ ਰੱਜ ਕੇ ਪਾਣੀ ਪੀਤਾ ਅਤੇ ਉੱਡ ਗਿਆ।",
+    "transliteration": "Ik vaar ik kaa pyasa si. Oh paani di bhaal vich iddhar-uddhar udd riha si. Akhir usnu ik baag vich ik gharha dikhai ditta. Gharhe vich paani bahut ghat si. Kaa ne apni chunjh paani tak pahunchaun di koshish kiti par oh asafal riha. Fir usnu ik tarkeeb sujhi. Usne nerhe paye kankar chukk ke gharhe vich paune shuru kar ditte. Hauli-hauli paani uppar aa gya. Kaa ne rajj ke paani peeta ate udd gya.",
+    "audioSrc": "assets/audio/story1.mp3"
+  },
+  {
+    "id": "l5_r2",
+    "level": 5,
+    "type": "story",
+    "title": "ਲਾਲਚੀ ਕੁੱਤਾ",
+    "native": "ਇੱਕ ਕੁੱਤੇ ਨੂੰ ਕਿਤੋਂ ਮਾਸ ਦਾ ਟੁਕੜਾ ਮਿਲਿਆ। ਉਹ ਉਸਨੂੰ ਮੂੰਹ ਵਿੱਚ ਪਾ ਕੇ ਨਦੀ ਦੇ ਪੁਲ ਉੱਤੋਂ ਲੰਘ ਰਿਹਾ ਸੀ। ਉਸਨੇ ਪਾਣੀ ਵਿੱਚ ਆਪਣਾ ਪਰਛਾਵਾਂ ਦੇਖਿਆ। ਉਸਨੇ ਸੋਚਿਆ ਕਿ ਪਾਣੀ ਵਿੱਚ ਕੋਈ ਹੋਰ ਕੁੱਤਾ ਹੈ ਜਿਸ ਕੋਲ ਵੀ ਮਾਸ ਦਾ ਟੁਕੜਾ ਹੈ। ਉਸਦੇ ਮਨ ਵਿੱਚ ਲਾਲਚ ਆ ਗਿਆ। ਉਹ ਦੂਜੇ ਕੁੱਤੇ ਦਾ ਮਾਸ ਖੋਹਣ ਲਈ ਭੌਂਕਿਆ। ਜਿਵੇਂ ਹੀ ਉਸਨੇ ਮੂੰਹ ਖੋਲ੍ਹਿਆ, ਉਸਦਾ ਆਪਣਾ ਮਾਸ ਦਾ ਟੁਕੜਾ ਪਾਣੀ ਵਿੱਚ ਡਿੱਗ ਪਿਆ। ਉਹ ਪਛਤਾਉਂਦਾ ਹੋਇਆ ਖਾਲੀ ਹੱਥ ਰਹਿ ਗਿਆ।",
+    "transliteration": "Ik kutte nu kiton maas da tukda milya. Oh usnu munh vich paa ke nadi de pul utton langh riha si. Usne paani vich apna parchhanva dekhya. Usne sochya ki paani vich koi hor kutta hai jis kol vi maas da tukda hai. Usde mann vich laalach aa gya. Oh duje kutte da maas khohan layi bhonkya. Jiven hi usne munh kholya, usda apna maas da tukda paani vich digg pya. Oh pachtaunda hoya khaali hath reh gya.",
+    "audioSrc": "assets/audio/story2.mp3"
+  },
+  {
+    "id": "l5_r3",
+    "level": 5,
+    "type": "story",
+    "title": "ਸਿਆਣਾ ਖਰਗੋਸ਼",
+    "native": "ਜੰਗਲ ਵਿੱਚ ਇੱਕ ਸਿਆਣਾ ਖਰਗੋਸ਼ ਰਹਿੰਦਾ ਸੀ। ਇੱਕ ਦਿਨ ਸ਼ੇਰ ਨੇ ਸਾਰੇ ਜਾਨਵਰਾਂ ਨੂੰ ਡਰਾਉਣਾ ਸ਼ੁਰੂ ਕਰ ਦਿੱਤਾ। ਖਰਗੋਸ਼ ਨੇ ਇੱਕ ਯੋਜਨਾ ਬਣਾਈ। ਉਸਨੇ ਸ਼ੇਰ ਨੂੰ ਕੂਏਂ ਕੋਲ ਲੈ ਜਾ ਕੇ ਉਸਦਾ ਪਰਛਾਵਾਂ ਵਿਖਾਇਆ। ਸ਼ੇਰ ਨੇ ਉਸਨੂੰ ਦੂਜਾ ਸ਼ੇਰ ਸਮਝ ਕੇ ਕੂਏਂ ਵਿੱਚ ਛਾਲ ਮਾਰ ਦਿੱਤੀ। ਇਸ ਤਰ੍ਹਾਂ ਸਾਰੇ ਜਾਨਵਰ ਬਚ ਗਏ।",
+    "transliteration": "Jangal vich ik syaana khargosh rehnda si. Ik din sher ne saare jaanvaran nu darauna shuru kar ditta. Khargosh ne ik yojna banayi. Usne sher nu kuen kol lai ja ke usda parchhanva vikhaaya. Sher ne usnu dooja sher samajh ke kuen vich chhaal maar ditti. Is tarah saare jaanvar bach gaye.",
+    "audioSrc": "assets/audio/story3.mp3"
+  },
+  {
+    "id": "l5_r4",
+    "level": 5,
+    "type": "story",
+    "title": "ਇਮਾਨਦਾਰ ਲੱਕੜਹਾਰਾ",
+    "native": "ਇੱਕ ਲੱਕੜਹਾਰਾ ਨਦੀ ਦੇ ਕੰਢੇ ਲੱਕੜ ਕੱਟ ਰਿਹਾ ਸੀ। ਅਚਾਨਕ ਉਸਦੀ ਕੁਹਾੜੀ ਨਦੀ ਵਿੱਚ ਡਿੱਗ ਪਈ। ਉਹ ਦੁੱਖੀ ਹੋ ਗਿਆ। ਇੱਕ ਦੇਵੀ ਆਈ ਅਤੇ ਸੋਨੇ ਤੇ ਚਾਂਦੀ ਦੀਆਂ ਕੁਹਾੜੀਆਂ ਵਿਖਾਈਆਂ। ਲੱਕੜਹਾਰੇ ਨੇ ਸੱਚ ਬੋਲਿਆ। ਉਸਦੀ ਇਮਾਨਦਾਰੀ ਤੋਂ ਖੁਸ਼ ਹੋ ਕੇ ਦੇਵੀ ਨੇ ਉਸਨੂੰ ਤਿੰਨੋਂ ਕੁਹਾੜੀਆਂ ਦੇ ਦਿੱਤੀਆਂ।",
+    "transliteration": "Ik lakkarhaara nadi de kandhe lakar katt riha si. Achanak usdi kuhaari nadi vich digg pai. Oh dukhi ho gya. Ik devi aayi ate sone te chaandi dian kuhaarian vikhaaiyan. Lakkarhaare ne sach bolya. Usdi imandari ton khush ho ke devi ne usnu tinno kuhaarian de dittian.",
+    "audioSrc": "assets/audio/story4.mp3"
+  },
+  {
+    "id": "l5_r5",
+    "level": 5,
+    "type": "story",
+    "title": "ਚਤੁਰ ਲੋਮੜੀ",
+    "native": "ਇੱਕ ਲੋਮੜੀ ਨੂੰ ਭੁੱਖ ਲੱਗੀ ਹੋਈ ਸੀ। ਉਸਨੇ ਇੱਕ ਕਾਂ ਨੂੰ ਚੋਂਚ ਵਿੱਚ ਰੋਟੀ ਫੜੀ ਦੇਖਿਆ। ਲੋਮੜੀ ਨੇ ਉਸਦੀ ਤਾਰੀਫ਼ ਕੀਤੀ। ਕਾਂ ਖੁਸ਼ ਹੋ ਕੇ ਬੋਲਿਆ ਅਤੇ ਰੋਟੀ ਹੇਠਾਂ ਡਿੱਗ ਪਈ। ਲੋਮੜੀ ਰੋਟੀ ਲੈ ਕੇ ਚਲੀ ਗਈ।",
+    "transliteration": "Ik lomri nu bhukh laggi hoi si. Usne ik kaa nu chonch vich roti pharhi dekhiya. Lomri ne usdi tarif kiti. Kaa khush ho ke bolya ate roti hethaan digg pai. Lomri roti lai ke chali gayi.",
+    "audioSrc": "assets/audio/story5.mp3"
+  },
+  {
+    "id": "l5_r6",
+    "level": 5,
+    "type": "story",
+    "title": "ਸੱਚਾ ਦੋਸਤ",
+    "native": "ਦੋ ਦੋਸਤ ਜੰਗਲ ਰਾਹੀਂ ਜਾ ਰਹੇ ਸਨ। ਅਚਾਨਕ ਇੱਕ ਰਿੱਛ ਆ ਗਿਆ। ਇੱਕ ਦੋਸਤ ਦਰੱਖਤ ਉੱਤੇ ਚੜ੍ਹ ਗਿਆ। ਦੂਜਾ ਜ਼ਮੀਨ ਉੱਤੇ ਲੇਟ ਗਿਆ। ਰਿੱਛ ਉਸਨੂੰ ਮੁਰਦਾ ਸਮਝ ਕੇ ਚਲਾ ਗਿਆ। ਇਸ ਤਰ੍ਹਾਂ ਸੱਚੀ ਦੋਸਤੀ ਦੀ ਪਰਖ ਹੋਈ।",
+    "transliteration": "Do dost jangal rahin ja rahe san. Achanak ik richh aa gya. Ik dost darakhat utte chadh gya. Dooja zameen utte let gya. Richh usnu murda samajh ke chala gya. Is tarah sachi dosti di parkh hoi.",
+    "audioSrc": "assets/audio/story6.mp3"
+  },
+  {
+    "id": "l5_r7",
+    "level": 5,
+    "type": "story",
+    "title": "ਮਿਹਨਤੀ ਚੀਂਟੀ",
+    "native": "ਗਰਮੀ ਦੇ ਮੌਸਮ ਵਿੱਚ ਚੀਂਟੀ ਖਾਣਾ ਇਕੱਠਾ ਕਰ ਰਹੀ ਸੀ। ਟਿਡ੍ਹਾ ਗੀਤ ਗਾ ਰਿਹਾ ਸੀ। ਸਰਦੀ ਆਈ ਤਾਂ ਟਿਡ੍ਹੇ ਕੋਲ ਕੁਝ ਨਹੀਂ ਸੀ। ਚੀਂਟੀ ਨੇ ਉਸਨੂੰ ਮਿਹਨਤ ਦੀ ਸਿੱਖ ਦਿੱਤੀ।",
+    "transliteration": "Garmi de mausam vich cheenti khaana ikattha kar rahi si. Tiddha geet gaa riha si. Sardi aayi taan tiddhe kol kujh nahi si. Cheenti ne usnu mehnat di sikh ditti.",
+    "audioSrc": "assets/audio/story7.mp3"
+  },
+  {
+    "id": "l5_r8",
+    "level": 5,
+    "type": "story",
+    "title": "ਝੂਠਾ ਗੜਰੀਆ",
+    "native": "ਇੱਕ ਗੜਰੀਆ ਬਾਰ-ਬਾਰ ਝੂਠੀ ਚੀਖ ਮਾਰਦਾ ਸੀ ਕਿ ਭੇਡੀਆ ਆ ਗਿਆ। ਲੋਕ ਦੌੜ ਕੇ ਆਉਂਦੇ ਸਨ। ਇੱਕ ਦਿਨ ਸੱਚਮੁੱਚ ਭੇਡੀਆ ਆ ਗਿਆ ਪਰ ਕਿਸੇ ਨੇ ਵਿਸ਼ਵਾਸ ਨਾ ਕੀਤਾ।",
+    "transliteration": "Ik garrariya baar-baar jhoothi cheekh marda si ke bhediya aa gya. Lok daud ke aunde san. Ik din sachmuch bhediya aa gya par kise ne vishvaas na kitta.",
+    "audioSrc": "assets/audio/story8.mp3"
+  },
+  {
+    "id": "l5_r9",
+    "level": 5,
+    "type": "story",
+    "title": "ਨੇਕੀ ਦਾ ਫਲ",
+    "native": "ਇੱਕ ਆਦਮੀ ਨੇ ਰਸਤੇ ਵਿੱਚ ਜ਼ਖ਼ਮੀ ਪੰਛੀ ਦੀ ਮਦਦ ਕੀਤੀ। ਕੁਝ ਦਿਨਾਂ ਬਾਅਦ ਉਸਨੂੰ ਮੁਸੀਬਤ ਆਈ। ਉਹੀ ਪੰਛੀ ਲੋਕਾਂ ਨੂੰ ਲੈ ਆਇਆ ਅਤੇ ਉਸਦੀ ਜਾਨ ਬਚ ਗਈ।",
+    "transliteration": "Ik aadmi ne raste vich zakhmi panchhi di madad kiti. Kujh dina baad usnu museebat aayi. Ohi panchhi lokan nu lai aaya ate usdi jaan bach gayi.",
+    "audioSrc": "assets/audio/story9.mp3"
+  },
+  {
+    "id": "l5_r10",
+    "level": 5,
+    "type": "story",
+    "title": "ਧੀਰਜ ਦੀ ਜਿੱਤ",
+    "native": "ਇੱਕ ਕਿਸਾਨ ਹਰ ਰੋਜ਼ ਖੇਤ ਵਿੱਚ ਮਿਹਨਤ ਕਰਦਾ ਸੀ। ਪਹਿਲਾਂ ਕੋਈ ਨਤੀਜਾ ਨਹੀਂ ਦਿੱਸਿਆ। ਉਸਨੇ ਧੀਰਜ ਨਹੀਂ ਛੱਡਿਆ। ਸਮੇਂ ਨਾਲ ਫਸਲ ਚੰਗੀ ਹੋ ਗਈ।",
+    "transliteration": "Ik kisaan har roz khet vich mehnat karda si. Pehlaan koi natija nahi disya. Usne dheeraj nahi chhaddiya. Samay naal fasal changi ho gayi.",
+    "audioSrc": "assets/audio/story10.mp3"
+  },
+  {
+    "id": "l5_r11",
+    "level": 5,
+    "type": "story",
+    "title": "ਸਮਝਦਾਰ ਰਾਜਾ",
+    "native": "ਇੱਕ ਰਾਜਾ ਆਪਣੇ ਲੋਕਾਂ ਦੀ ਗੱਲ ਸੁਣਦਾ ਸੀ। ਉਹ ਫੈਸਲੇ ਸੋਚ-ਸਮਝ ਕੇ ਕਰਦਾ ਸੀ। ਇਸ ਕਰਕੇ ਉਸਦਾ ਰਾਜ ਖੁਸ਼ਹਾਲ ਸੀ। ਲੋਕ ਉਸਨੂੰ ਪਿਆਰ ਕਰਦੇ ਸਨ।",
+    "transliteration": "Ik raaja apne lokan di gall sunda si. Oh faisle soch-samajh ke karda si. Is karke usda raaj khushhaal si. Lok usnu pyaar karde san.",
+    "audioSrc": "assets/audio/story11.mp3"
+  },
+  {
+    "id": "l5_r12",
+    "level": 5,
+    "type": "story",
+    "title": "ਸਮਾਂ ਸਭ ਸਿਖਾਉਂਦਾ ਹੈ",
+    "native": "ਇੱਕ ਨੌਜਵਾਨ ਬਹੁਤ ਅਹੰਕਾਰ ਕਰਦਾ ਸੀ। ਸਮੇਂ ਨਾਲ ਉਸਨੇ ਗਲਤੀਆਂ ਕੀਤੀਆਂ। ਮੁਸ਼ਕਲਾਂ ਨੇ ਉਸਨੂੰ ਸਿਖਾਇਆ। ਆਖਿਰ ਉਹ ਨਿਮਰ ਬਣ ਗਿਆ।",
+    "transliteration": "Ik naujawan bahut ahankaar karda si. Samay naal usne galtiyan kitiyaan. Mushklaan ne usnu sikhaaya. Aakhir oh nimar ban gya.",
+    "audioSrc": "assets/audio/story12.mp3"
+  }
+]

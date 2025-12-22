@@ -65,6 +65,8 @@ $color-shadow-md: 0 4px 12px $color-shadow;
 $color-shadow-lg: 0 8px 32px $color-shadow;
 $color-shadow-hover: 0 4px 16px $color-primary-alpha-30;
 $color-outline-focus: 2px solid $color-primary;
+/* stylelint-disable-next-line declaration-property-value-disallowed-list */
+$color-gradient-primary: linear-gradient(135deg, $color-primary, $color-primary-hover);
 
 // ==========================================================================
 // 4. Theme Definitions

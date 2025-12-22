@@ -1,0 +1,129 @@
+<main class="random-practice-container">
+  <header class="random-practice-header">
+    <button 
+      class="back-button" 
+      (click)="goBack()"
+      aria-label="Go back to lesson list"
+    >
+      <span class="icon">←</span> Back
+    </button>
+    <h1>Level {{ level() }} Practice</h1>
+  </header>
+
+  @if (loading()) {
+    <div class="loading-state" role="status" aria-live="polite">
+      <div class="spinner"></div>
+      <p>Loading your practice set...</p>
+    </div>
+  } @else if (isFinished()) {
+    <div class="finished-state">
+      <div class="celebration-icon">🎉</div>
+      <h2>Awesome Job!</h2>
+      <p>You've mastered all items in this set.</p>
+      <div class="action-buttons">
+        <button class="button-primary" (click)="resetHistory()">Start Over</button>
+        <button class="button-secondary" (click)="goBack()">Back to Menu</button>
+      </div>
+    </div>
+  } @else if (currentItem(); as item) {
+    <div class="practice-area">
+      <!-- Navigation Left -->
+      <button 
+        class="nav-fab prev-fab"
+        (click)="goToPrevious()"
+        [disabled]="!hasPrevious()"
+        aria-label="Previous item"
+      >
+        <span aria-hidden="true">❮</span>
+      </button>
+
+      <!-- Main Flashcard -->
+      <article 
+        class="flashcard"
+        [class.read]="isReadForCurrentItem()"
+        role="article"
+      >
+        <!-- Card Header: Type badge & Read toggle -->
+        <div class="card-header">
+          <span class="badge-type">{{ item.type }}</span>
+          
+          <label class="read-toggle" aria-label="Mark as read">
+            <input 
+              type="checkbox"
+              [checked]="isReadForCurrentItem()"
+              (change)="toggleRead($event)"
+            />
+            <span class="checkmark"></span>
+            <span class="label-text">Mark Read</span>
+          </label>
+        </div>
+
+        <!-- Card Body: Main Content -->
+        <div class="card-body">
+          <div 
+            class="native-text" 
+            [class.long-text]="level() >= 3"
+            [attr.aria-label]="item.native"
+          >
+            {{ item.native }}
+          </div>
+
+          <!-- Transliteration/Meaning Area -->
+          <div class="secondary-content">
+             @if (showTransliteration()) {
+                <div class="revealed-content animate-fade-in">
+                  <div class="transliteration">{{ item.transliteration }}</div>
+                  @if (item.meaning) {
+                    <div class="meaning">{{ item.meaning }}</div>
+                  }
+                </div>
+             } @else {
+                <button 
+                  class="reveal-button"
+                  (click)="toggleTransliteration()"
+                >
+                  Show Details
+                </button>
+             }
+          </div>
+        </div>
+
+        <!-- Card Footer: Audio Control -->
+        @if (item.audioSrc) {
+          <div class="card-footer">
+            <button 
+              class="audio-fab"
+              (click)="playAudio($event)"
+              [class.playing]="playingAudioId() === item.id"
+              aria-label="Play audio"
+            >
+              @if (playingAudioId() === item.id) {
+                <span class="wave-icon">❚❚</span>
+              } @else {
+                <span class="play-icon">▶</span>
+              }
+            </button>
+          </div>
+        }
+      </article>
+
+      <!-- Navigation Right -->
+      <button 
+        class="nav-fab next-fab"
+        (click)="goToNext()"
+        [disabled]="!hasNext()"
+        aria-label="Next item"
+      >
+        <span aria-hidden="true">❯</span>
+      </button>
+    </div>
+
+    <!-- Bottom Actions -->
+    <div class="bottom-actions">
+       <button class="text-button" (click)="loadMore()">Load Next Set</button>
+       <span class="divider">•</span>
+       <button class="text-button" (click)="resetHistory()">Reset History</button>
+    </div>
+  }
+</main>
+

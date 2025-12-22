@@ -24,25 +24,27 @@ export class LessonService {
    * Load all lessons from JSON files
    */
   private loadAllLessons(): void {
-    const levelFiles = Array.from(
+    const levels = Array.from(
       { length: AppConfig.lessons.totalLevels },
-      (_, i) => this.languageService.config.lessonsPathTemplate.replace('{level}', String(i + AppConfig.lessons.firstLevelIndex))
+      (_, i) => i + AppConfig.lessons.firstLevelIndex
     );
 
-    const requests = levelFiles.map(file => 
-      this.http.get<LessonItem[]>(file).pipe(
-        map(lessons => lessons || [])
-      )
-    );
+    const requests = levels.map(level => this.getLessonGroupsByLevel(level));
 
     forkJoin(requests).subscribe({
-      next: (results) => {
+      next: (levelGroups) => {
         const allLessons: LessonItem[] = [];
         
-        results.forEach((lessons, index) => {
+        levelGroups.forEach((groups, index) => {
           const level = index + AppConfig.lessons.firstLevelIndex;
-          this.lessonsCache.set(level, lessons);
-          allLessons.push(...lessons);
+          const levelLessons: LessonItem[] = [];
+          
+          groups.forEach(group => {
+            levelLessons.push(...group.items);
+          });
+          
+          this.lessonsCache.set(level, levelLessons);
+          allLessons.push(...levelLessons);
         });
 
         this.allLessons.set(allLessons);

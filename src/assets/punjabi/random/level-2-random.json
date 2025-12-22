@@ -1,0 +1,272 @@
+[
+  {
+    "id": "l2_r1",
+    "level": 2,
+    "type": "word",
+    "native": "ਘਰ",
+    "transliteration": "Ghar",
+    "meaning": "Home",
+    "audioSrc": "assets/audio/ghar.mp3"
+  },
+  {
+    "id": "l2_r2",
+    "level": 2,
+    "type": "word",
+    "native": "ਫਲ",
+    "transliteration": "Phal",
+    "meaning": "Fruit",
+    "audioSrc": "assets/audio/phal.mp3"
+  },
+  {
+    "id": "l2_r3",
+    "level": 2,
+    "type": "word",
+    "native": "ਬਸ",
+    "transliteration": "Bus",
+    "meaning": "Bus",
+    "audioSrc": "assets/audio/bus.mp3"
+  },
+  {
+    "id": "l2_r4",
+    "level": 2,
+    "type": "word",
+    "native": "ਕਮਲ",
+    "transliteration": "Kamal",
+    "meaning": "Lotus",
+    "audioSrc": "assets/audio/kamal.mp3"
+  },
+  {
+    "id": "l2_r5",
+    "level": 2,
+    "type": "word",
+    "native": "ਮਟਰ",
+    "transliteration": "Matar",
+    "meaning": "Peas",
+    "audioSrc": "assets/audio/matar.mp3"
+  },
+  {
+    "id": "l2_r6",
+    "level": 2,
+    "type": "word",
+    "native": "ਸੜਕ",
+    "transliteration": "Sadak",
+    "meaning": "Road",
+    "audioSrc": "assets/audio/sadak.mp3"
+  },
+  {
+    "id": "l2_r7",
+    "level": 2,
+    "type": "word",
+    "native": "ਬਰਫ਼",
+    "transliteration": "Baraf",
+    "meaning": "Ice / Snow",
+    "audioSrc": "assets/audio/baraf.mp3"
+  },
+  {
+    "id": "l2_r8",
+    "level": 2,
+    "type": "word",
+    "native": "ਕਲਮ",
+    "transliteration": "Kalam",
+    "meaning": "Pen",
+    "audioSrc": "assets/audio/kalam.mp3"
+  },
+  {
+    "id": "l2_r9",
+    "level": 2,
+    "type": "word",
+    "native": "ਜਲ",
+    "transliteration": "Jal",
+    "meaning": "Water",
+    "audioSrc": "assets/audio/jal.mp3"
+  },
+  {
+    "id": "l2_r10",
+    "level": 2,
+    "type": "word",
+    "native": "ਨਲ",
+    "transliteration": "Nal",
+    "meaning": "Tap",
+    "audioSrc": "assets/audio/nal.mp3"
+  },
+  {
+    "id": "l2_r11",
+    "level": 2,
+    "type": "word",
+    "native": "ਰਥ",
+    "transliteration": "Rath",
+    "meaning": "Chariot",
+    "audioSrc": "assets/audio/rath.mp3"
+  },
+  {
+    "id": "l2_r12",
+    "level": 2,
+    "type": "word",
+    "native": "ਧਨ",
+    "transliteration": "Dhan",
+    "meaning": "Wealth",
+    "audioSrc": "assets/audio/dhan.mp3"
+  },
+  {
+    "id": "l2_r13",
+    "level": 2,
+    "type": "word",
+    "native": "ਦਿਲ",
+    "transliteration": "Dil",
+    "meaning": "Heart",
+    "audioSrc": "assets/audio/dil.mp3"
+  },
+  {
+    "id": "l2_r14",
+    "level": 2,
+    "type": "word",
+    "native": "ਕਿਤਾਬ",
+    "transliteration": "Kitaab",
+    "meaning": "Book",
+    "audioSrc": "assets/audio/kitaab.mp3"
+  },
+  {
+    "id": "l2_r15",
+    "level": 2,
+    "type": "word",
+    "native": "ਮੇਜ਼",
+    "transliteration": "Mez",
+    "meaning": "Table",
+    "audioSrc": "assets/audio/mez.mp3"
+  },
+  {
+    "id": "l2_r16",
+    "level": 2,
+    "type": "word",
+    "native": "ਕੁਰਸੀ",
+    "transliteration": "Kursi",
+    "meaning": "Chair",
+    "audioSrc": "assets/audio/kursi.mp3"
+  },
+  {
+    "id": "l2_r17",
+    "level": 2,
+    "type": "word",
+    "native": "ਦੁੱਧ",
+    "transliteration": "Dudh",
+    "meaning": "Milk",
+    "audioSrc": "assets/audio/dudh.mp3"
+  },
+  {
+    "id": "l2_r18",
+    "level": 2,
+    "type": "word",
+    "native": "ਰੋਟੀ",
+    "transliteration": "Roti",
+    "meaning": "Bread",
+    "audioSrc": "assets/audio/roti.mp3"
+  },
+  {
+    "id": "l2_r19",
+    "level": 2,
+    "type": "word",
+    "native": "ਫੁੱਲ",
+    "transliteration": "Phull",
+    "meaning": "Flower",
+    "audioSrc": "assets/audio/phull.mp3"
+  },
+  {
+    "id": "l2_r20",
+    "level": 2,
+    "type": "word",
+    "native": "ਚਾਹ",
+    "transliteration": "Chah",
+    "meaning": "Tea",
+    "audioSrc": "assets/audio/chah.mp3"
+  },
+  {
+    "id": "l2_r21",
+    "level": 2,
+    "type": "word",
+    "native": "ਬੱਚਾ",
+    "transliteration": "Bachcha",
+    "meaning": "Child",
+    "audioSrc": "assets/audio/bachcha.mp3"
+  },
+  {
+    "id": "l2_r22",
+    "level": 2,
+    "type": "word",
+    "native": "ਮਾਂ",
+    "transliteration": "Maa",
+    "meaning": "Mother",
+    "audioSrc": "assets/audio/maa.mp3"
+  },
+  {
+    "id": "l2_r23",
+    "level": 2,
+    "type": "word",
+    "native": "ਪਿਤਾ",
+    "transliteration": "Pita",
+    "meaning": "Father",
+    "audioSrc": "assets/audio/pita.mp3"
+  },
+  {
+    "id": "l2_r24",
+    "level": 2,
+    "type": "word",
+    "native": "ਦਿਨ",
+    "transliteration": "Din",
+    "meaning": "Day",
+    "audioSrc": "assets/audio/din.mp3"
+  },
+  {
+    "id": "l2_r25",
+    "level": 2,
+    "type": "word",
+    "native": "ਰਾਤ",
+    "transliteration": "Raat",
+    "meaning": "Night",
+    "audioSrc": "assets/audio/raat.mp3"
+  },
+  {
+    "id": "l2_r26",
+    "level": 2,
+    "type": "word",
+    "native": "ਸੂਰਜ",
+    "transliteration": "Suraj",
+    "meaning": "Sun",
+    "audioSrc": "assets/audio/suraj.mp3"
+  },
+  {
+    "id": "l2_r27",
+    "level": 2,
+    "type": "word",
+    "native": "ਚੰਦਰ",
+    "transliteration": "Chandar",
+    "meaning": "Moon",
+    "audioSrc": "assets/audio/chandar.mp3"
+  },
+  {
+    "id": "l2_r28",
+    "level": 2,
+    "type": "word",
+    "native": "ਹਵਾ",
+    "transliteration": "Hawa",
+    "meaning": "Air",
+    "audioSrc": "assets/audio/hawa.mp3"
+  },
+  {
+    "id": "l2_r29",
+    "level": 2,
+    "type": "word",
+    "native": "ਅੱਗ",
+    "transliteration": "Agg",
+    "meaning": "Fire",
+    "audioSrc": "assets/audio/agg.mp3"
+  },
+  {
+    "id": "l2_r30",
+    "level": 2,
+    "type": "word",
+    "native": "ਮਿੱਟੀ",
+    "transliteration": "Mitti",
+    "meaning": "Soil",
+    "audioSrc": "assets/audio/mitti.mp3"
+  }
+]

@@ -1,0 +1,43 @@
+[
+  { "id": "l1_r1", "level": 1, "type": "letter", "native": "ੳ", "transliteration": "Ura", "audioSrc": "assets/audio/ura.mp3" },
+  { "id": "l1_r2", "level": 1, "type": "letter", "native": "ਅ", "transliteration": "Aira", "audioSrc": "assets/audio/aira.mp3" },
+  { "id": "l1_r3", "level": 1, "type": "letter", "native": "ੲ", "transliteration": "Iri", "audioSrc": "assets/audio/iri.mp3" },
+
+  { "id": "l1_r4", "level": 1, "type": "letter", "native": "ਸ", "transliteration": "Sassa", "audioSrc": "assets/audio/sassa.mp3" },
+  { "id": "l1_r5", "level": 1, "type": "letter", "native": "ਹ", "transliteration": "Haha", "audioSrc": "assets/audio/haha.mp3" },
+  { "id": "l1_r6", "level": 1, "type": "letter", "native": "ਕ", "transliteration": "Kakka", "audioSrc": "assets/audio/kakka.mp3" },
+  { "id": "l1_r7", "level": 1, "type": "letter", "native": "ਖ", "transliteration": "Khakkha", "audioSrc": "assets/audio/khakkha.mp3" },
+  { "id": "l1_r8", "level": 1, "type": "letter", "native": "ਗ", "transliteration": "Gagga", "audioSrc": "assets/audio/gagga.mp3" },
+  { "id": "l1_r9", "level": 1, "type": "letter", "native": "ਘ", "transliteration": "Ghaggha", "audioSrc": "assets/audio/ghaggha.mp3" },
+  { "id": "l1_r10", "level": 1, "type": "letter", "native": "ਙ", "transliteration": "Nganga", "audioSrc": "assets/audio/nganga.mp3" },
+
+  { "id": "l1_r11", "level": 1, "type": "letter", "native": "ਚ", "transliteration": "Chachcha", "audioSrc": "assets/audio/chachcha.mp3" },
+  { "id": "l1_r12", "level": 1, "type": "letter", "native": "ਛ", "transliteration": "Chhachchha", "audioSrc": "assets/audio/chhachchha.mp3" },
+  { "id": "l1_r13", "level": 1, "type": "letter", "native": "ਜ", "transliteration": "Jajja", "audioSrc": "assets/audio/jajja.mp3" },
+  { "id": "l1_r14", "level": 1, "type": "letter", "native": "ਝ", "transliteration": "Jhajja", "audioSrc": "assets/audio/jhajja.mp3" },
+  { "id": "l1_r15", "level": 1, "type": "letter", "native": "ਞ", "transliteration": "Njanja", "audioSrc": "assets/audio/njanja.mp3" },
+
+  { "id": "l1_r16", "level": 1, "type": "letter", "native": "ਟ", "transliteration": "Tainka", "audioSrc": "assets/audio/tainka.mp3" },
+  { "id": "l1_r17", "level": 1, "type": "letter", "native": "ਠ", "transliteration": "Thaitha", "audioSrc": "assets/audio/thaitha.mp3" },
+  { "id": "l1_r18", "level": 1, "type": "letter", "native": "ਡ", "transliteration": "Dadda", "audioSrc": "assets/audio/dadda.mp3" },
+  { "id": "l1_r19", "level": 1, "type": "letter", "native": "ਢ", "transliteration": "Dhaddha", "audioSrc": "assets/audio/dhaddha.mp3" },
+  { "id": "l1_r20", "level": 1, "type": "letter", "native": "ਣ", "transliteration": "Nanna", "audioSrc": "assets/audio/nanna.mp3" },
+
+  { "id": "l1_r21", "level": 1, "type": "letter", "native": "ਤ", "transliteration": "Tatta", "audioSrc": "assets/audio/tatta.mp3" },
+  { "id": "l1_r22", "level": 1, "type": "letter", "native": "ਥ", "transliteration": "Thathha", "audioSrc": "assets/audio/thathha.mp3" },
+  { "id": "l1_r23", "level": 1, "type": "letter", "native": "ਦ", "transliteration": "Dadda", "audioSrc": "assets/audio/dadda_soft.mp3" },
+  { "id": "l1_r24", "level": 1, "type": "letter", "native": "ਧ", "transliteration": "Dhaddha", "audioSrc": "assets/audio/dhaddha_soft.mp3" },
+  { "id": "l1_r25", "level": 1, "type": "letter", "native": "ਨ", "transliteration": "Nanna", "audioSrc": "assets/audio/nanna_soft.mp3" },
+
+  { "id": "l1_r26", "level": 1, "type": "letter", "native": "ਪ", "transliteration": "Pappa", "audioSrc": "assets/audio/pappa.mp3" },
+  { "id": "l1_r27", "level": 1, "type": "letter", "native": "ਫ", "transliteration": "Phapha", "audioSrc": "assets/audio/phapha.mp3" },
+  { "id": "l1_r28", "level": 1, "type": "letter", "native": "ਬ", "transliteration": "Babba", "audioSrc": "assets/audio/babba.mp3" },
+  { "id": "l1_r29", "level": 1, "type": "letter", "native": "ਭ", "transliteration": "Bhabba", "audioSrc": "assets/audio/bhabba.mp3" },
+  { "id": "l1_r30", "level": 1, "type": "letter", "native": "ਮ", "transliteration": "Mamma", "audioSrc": "assets/audio/mamma.mp3" },
+
+  { "id": "l1_r31", "level": 1, "type": "letter", "native": "ਯ", "transliteration": "Yayya", "audioSrc": "assets/audio/yayya.mp3" },
+  { "id": "l1_r32", "level": 1, "type": "letter", "native": "ਰ", "transliteration": "Rarra", "audioSrc": "assets/audio/rarra.mp3" },
+  { "id": "l1_r33", "level": 1, "type": "letter", "native": "ਲ", "transliteration": "Lalla", "audioSrc": "assets/audio/lalla.mp3" },
+  { "id": "l1_r34", "level": 1, "type": "letter", "native": "ਵ", "transliteration": "Vava", "audioSrc": "assets/audio/vava.mp3" },
+  { "id": "l1_r35", "level": 1, "type": "letter", "native": "ੜ", "transliteration": "Rrara", "audioSrc": "assets/audio/rrara.mp3" }
+]
